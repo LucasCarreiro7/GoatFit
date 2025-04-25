@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="@color/dark_blue"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdicionarTreinos">
+
+    <Button
+        android:id="@+id/botaoTreino5"
+        android:layout_width="376dp"
+        android:layout_height="117dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="92dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="TREINO PARA PERDA DE PESO"
+        android:textAlignment="viewStart"
+        android:textColor="#000000"
+        android:textSize="19sp"
+        app:cornerRadius="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.457"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView29"
+        app:layout_constraintVertical_bias="0.013" />
+
+    <Button
+        android:id="@+id/botaoTreino4"
+        android:layout_width="376dp"
+        android:layout_height="117dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="220dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="TREINO DE ABDÔMEN"
+        android:textAlignment="viewStart"
+        android:textColor="#000000"
+        android:textSize="19sp"
+        app:cornerRadius="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.457"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView29"
+        app:layout_constraintVertical_bias="0.013" />
+
+    <Button
+        android:id="@+id/buttonVoltar8"
+        android:layout_width="60dp"
+        android:layout_height="58dp"
+        android:backgroundTint="#040F1A"
+        android:text="­"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.008"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.013" />
+
+    <ImageView
+        android:id="@+id/imageView37"
+        android:layout_width="47dp"
+        android:layout_height="51dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.043"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023"
+        app:srcCompat="@drawable/seta" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="247dp"
+        android:layout_height="42dp"
+        android:layout_marginBottom="732dp"
+        android:text="ADICIONAR TREINOS"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.14"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView17"
+        app:layout_constraintVertical_bias="0.03" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TREINOS"
+        android:textColor="#FFFFFF"
+        android:textSize="32sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.037" />
+
+    <Button
+        android:id="@+id/botaoTreino1"
+        android:layout_width="376dp"
+        android:layout_height="117dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="604dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="TREINO DE PEITO, OMBRO E TRÍCEPS"
+        android:textAlignment="viewStart"
+        android:textColor="#000000"
+        android:textSize="19sp"
+        app:cornerRadius="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.485"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView29"
+        app:layout_constraintVertical_bias="0.013" />
+
+    <Button
+        android:id="@+id/botaoTreino3"
+        android:layout_width="376dp"
+        android:layout_height="117dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="348dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="TREINO DE PERNA"
+        android:textAlignment="viewStart"
+        android:textColor="#000000"
+        android:textSize="19sp"
+        app:cornerRadius="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.457"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView29"
+        app:layout_constraintVertical_bias="0.013" />
+
+    <Button
+        android:id="@+id/botaoTreino2"
+        android:layout_width="376dp"
+        android:layout_height="117dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="476dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="TREINO DE COSTAS E BÍCEPS"
+        android:textAlignment="viewStart"
+        android:textColor="#000000"
+        android:textSize="19sp"
+        app:cornerRadius="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.457"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView29"
+        app:layout_constraintVertical_bias="0.013" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
